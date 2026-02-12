@@ -285,3 +285,33 @@ curl -s http://localhost:11434/api/generate -d '{
 }'
 ```
 
+
+---
+
+## 🎨 Frontend
+
+The project now includes a web frontend built with React + TypeScript + Vite.
+
+### Starting the Frontend
+
+```bash
+# Terminal 1: Start backend
+./start.sh
+
+# Terminal 2: Start frontend
+cd frontend
+npm install
+npm run dev
+```
+
+Then open http://localhost:5173
+
+### Features
+
+- **Interactive Team Builder**: Select heroes for enemy and friendly teams
+- **Map Selection**: Searchable dropdown with thumbnails
+- **Difficulty Input**: Describe your problem
+- **AI Suggestions**: Get instant team recommendations
+- **Beautiful UI**: Tailwind CSS with Overwatch theme
+
+See `frontend/README.md` for more details.
