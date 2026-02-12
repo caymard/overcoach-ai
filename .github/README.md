@@ -1,8 +1,12 @@
 # Overcoach AI 🎮
 
-> Your AI-powered team composition coach for Overwatch
+Your AI-powered team composition coach for Overwatch
 
 ---
+
+## Author note
+
+_This is my first vibe-coding project. The aim was to try out Github Coplit CLI as a vibe coding agent, and also use a RAG in a specific use case. As Overwatch did a comeback, I imagined this AI coach to help you find the best composition for EZ win. Enjoy !_
 
 ## Quick Links
 
