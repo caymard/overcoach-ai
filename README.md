@@ -2,6 +2,10 @@
 
 AI-powered team composition coach for Overwatch using RAG (Retrieval-Augmented Generation) with local LLM.
 
+## Author note
+
+This is my first vibe-coding project. The aim was to try out Github Coplit CLI as a vibe coding agent, and also use a RAG in a specific use case. As Overwatch did a comeback, I imagined this AI coach to help you find the best composition for EZ win ! Enjoy.
+
 ## 🎮 Features
 
 - **Team Composition Suggestions**: Get AI-powered team recommendations based on map, enemy team, and context
