@@ -1,0 +1,14 @@
+fastapi[standard]>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.9.0
+llama-index>=0.12.0
+llama-index-llms-ollama
+llama-index-embeddings-huggingface
+llama-index-vector-stores-chroma
+httpx>=0.27.0
+python-dotenv>=1.0.0
+pytest>=8.0.0
+
+# Optional: Remote LLM providers
+llama-index-llms-openai>=0.1.0  # For OpenAI and GitHub Models
+llama-index-llms-azure-openai>=0.1.0  # For Azure OpenAI
