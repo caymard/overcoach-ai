@@ -12,7 +12,6 @@ _This is my first vibe-coding project. The aim was to try out Github Coplit CLI 
 
 - 📖 [Full Documentation](README.md)
 - 🚀 [Quick Start Guide](QUICKSTART.md)
-- 📊 [Project Summary](PROJECT_SUMMARY.md)
 - 🧪 [Usage Examples](examples.py)
 
 ---
@@ -30,12 +29,25 @@ Overcoach AI is an intelligent team composition assistant that uses **RAG (Retri
 
 ---
 
-## One-Line Install
+## Quick install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/overcoach-ai.git
+# Clone repo
+git clone https://github.com/caymard/overcoach-ai.git
 cd overcoach-ai
-./start.sh
+# Python venv
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+# RAG database
+python -m src.ingestion.markdown_gen
+python -m src.rag.indexer
+# Backend
+uvicorn src.api.main:app
+# Frontend
+cd frontend
+npm install
+npm run dev
 ```
 
 ---
@@ -59,12 +71,11 @@ curl -X POST http://localhost:8000/suggest \
 
 ## Features
 
-✅ **50 heroes** indexed with abilities and counters  
-✅ **57 maps** with strategic information  
-✅ **Local LLM** (Mistral 7B via Ollama)  
-✅ **REST API** with interactive docs  
-✅ **Vector search** for semantic hero/map matching  
-✅ **No dependencies** on external APIs  
+✅ **50 heroes** indexed with abilities and counters
+✅ **57 maps** with strategic information
+✅ **Local LLM** (Mistral 7B via Ollama)
+✅ **REST API** with interactive docs
+✅ **Vector search** for semantic hero/map matching
 
 ---
 
